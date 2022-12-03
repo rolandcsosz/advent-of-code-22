@@ -57,8 +57,6 @@ def calculate_sum_of_priorities_for_second_part(rucksacks:list[str], group_size:
     return sum
 
 
-
-
 def main():
     all_rucksacks = read_input_into_list('day_3_input.txt')
     print("The total summary of priorities:", calculate_sum_of_priorities_for_first_part(all_rucksacks))
